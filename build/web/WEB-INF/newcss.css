@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 sept. 2021, 19:16:41
+    Author     : tiementa.hamadou
+*/
+
+
+* {
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:linear-gradient(blueviolet, white);
+  	height: 100vh;
+}
+
+.Formulaire {
+  	min-width: 250px;
+  	max-width: 370px;
+	border-radius: 24px;
+	padding: 50px 50px 50px 10px;
+	background-color:rgba(250, 209, 133, 0.966);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Formulaire h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 35px;
+}
+
+.Formulaire input[type = "text"] {
+	margin-top: 40px;
+
+}
+.Formulaire input[type = "password"] {
+	margin-top: 10px;
+}
+
+form input[type = "submit"] {
+	background-color:  #E0E0E0;
+
+	width: 100%;
+	color: white;
+  	border: none;
+	margin-top: 12px;
+  	cursor: pointer;
+	padding: 10px 10px 10px 10px;
+  	font-family: 'Raleway', sans-seriff;
+  	font-size: 1.3rem;
+	font-weight: bold;
+	border-radius: 24px;
+        margin-left: 20px;
+        
+}
+
+
+form input[type = "submit"]:hover {
+	opacity: 0.8;
+	color: purple;
+}
+
+form input[type = "text"], .Formulaire input[type = "text"], .Formulaire input[type= "password"] 
+{
+	width: 100%;
+	border: none;
+	border-radius: 24px;
+  	font-size: 1rem;
+  	font-family: 'Raleway', sans-seriff;
+	background-color: white;
+        padding: 10px;
+        margin: 15px;
+        text-align: center; 
+}
+
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 sept. 2021, 09:02:12
+    Author     : tiementa.hamadou
+*/
+
+
+
